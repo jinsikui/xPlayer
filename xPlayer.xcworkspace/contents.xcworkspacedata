@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:Podfile">
+   </FileRef>
+   <FileRef
+      location = "group:PLPlayerKit">
+   </FileRef>
+   <FileRef
+      location = "group:IJKPlayer">
+   </FileRef>
+   <FileRef
+      location = "group:FFmpeg">
+   </FileRef>
+   <FileRef
+      location = "group:librtmp">
+   </FileRef>
+   <FileRef
+      location = "group:FFmpegDemo/FFmpegDemo.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:IJKPlayerDemo/IJKPlayerDemo.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:PLPlayerDemo/PLPlayerDemo.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:xPlayerDemo/xPlayerDemo.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:xPlayer/xPlayer.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:SDLDemo/SDLDemo.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:SDL/SDL.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+</Workspace>

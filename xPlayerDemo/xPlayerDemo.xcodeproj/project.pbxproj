@@ -1,0 +1,386 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6354C1A1203EA4B8004FEA4D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6354C1A0203EA4B8004FEA4D /* main.m */; };
+		63A03AD32060CAFC0039D5C9 /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A03AD22060CAFC0039D5C9 /* DemoViewController.m */; };
+		63C043D420620BD40080FB2C /* xPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63C043D520620BD40080FB2C /* xPlayer.framework */; };
+		63C043D920620E8D0080FB2C /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63C043D820620E8D0080FB2C /* VideoToolbox.framework */; };
+		63C043DB20620EA80080FB2C /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 63C043DA20620EA80080FB2C /* libz.tbd */; };
+		63C043DD20620EBB0080FB2C /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 63C043DC20620EBB0080FB2C /* libbz2.tbd */; };
+		63C043E52062136F0080FB2C /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63C043E42062136F0080FB2C /* AudioToolbox.framework */; };
+		63C043E7206213B70080FB2C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63C043E6206213B70080FB2C /* AVFoundation.framework */; };
+		63C0440B206230380080FB2C /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 63C0440A206230370080FB2C /* libiconv.tbd */; };
+		63C907C0203E8F220067A39D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63C907BE203E8F220067A39D /* LaunchScreen.storyboard */; };
+		63C907E4203E965F0067A39D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C907E1203E965F0067A39D /* AppDelegate.m */; };
+		63EFA943203FF14D005F5015 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63EFA942203FF14C005F5015 /* Assets.xcassets */; };
+		63EFA945203FF184005F5015 /* xiaoqingge.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 63EFA944203FF184005F5015 /* xiaoqingge.mp3 */; };
+		63EFA947203FF7B2005F5015 /* sintel.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 63EFA946203FF7B2005F5015 /* sintel.mp4 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6354C1A0203EA4B8004FEA4D /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		63A03AD12060CAFC0039D5C9 /* DemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
+		63A03AD22060CAFC0039D5C9 /* DemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
+		63C043D520620BD40080FB2C /* xPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = xPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		63C043D820620E8D0080FB2C /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		63C043DA20620EA80080FB2C /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		63C043DC20620EBB0080FB2C /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
+		63C043E42062136F0080FB2C /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		63C043E6206213B70080FB2C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		63C0440A206230370080FB2C /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		63C907AA203E8F220067A39D /* xPlayerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xPlayerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63C907BF203E8F220067A39D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		63C907C1203E8F220067A39D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63C907E0203E965F0067A39D /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		63C907E1203E965F0067A39D /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		63EFA942203FF14C005F5015 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		63EFA944203FF184005F5015 /* xiaoqingge.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = xiaoqingge.mp3; sourceTree = "<group>"; };
+		63EFA946203FF7B2005F5015 /* sintel.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = sintel.mp4; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63C907A7203E8F220067A39D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63C043E7206213B70080FB2C /* AVFoundation.framework in Frameworks */,
+				63C043D920620E8D0080FB2C /* VideoToolbox.framework in Frameworks */,
+				63C043E52062136F0080FB2C /* AudioToolbox.framework in Frameworks */,
+				63C043D420620BD40080FB2C /* xPlayer.framework in Frameworks */,
+				63C0440B206230380080FB2C /* libiconv.tbd in Frameworks */,
+				63C043DD20620EBB0080FB2C /* libbz2.tbd in Frameworks */,
+				63C043DB20620EA80080FB2C /* libz.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63C907A1203E8F220067A39D = {
+			isa = PBXGroup;
+			children = (
+				63EFA941203FF14C005F5015 /* Resources */,
+				63C907AC203E8F220067A39D /* xPlayerDemo */,
+				63C907AB203E8F220067A39D /* Products */,
+				63C907C9203E901A0067A39D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		63C907AB203E8F220067A39D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63C907AA203E8F220067A39D /* xPlayerDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63C907AC203E8F220067A39D /* xPlayerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				6354C1A0203EA4B8004FEA4D /* main.m */,
+				63C907E0203E965F0067A39D /* AppDelegate.h */,
+				63C907E1203E965F0067A39D /* AppDelegate.m */,
+				63A03AD12060CAFC0039D5C9 /* DemoViewController.h */,
+				63A03AD22060CAFC0039D5C9 /* DemoViewController.m */,
+				63C907BE203E8F220067A39D /* LaunchScreen.storyboard */,
+				63C907C1203E8F220067A39D /* Info.plist */,
+			);
+			path = xPlayerDemo;
+			sourceTree = "<group>";
+		};
+		63C907C9203E901A0067A39D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63C043E6206213B70080FB2C /* AVFoundation.framework */,
+				63C043D820620E8D0080FB2C /* VideoToolbox.framework */,
+				63C043E42062136F0080FB2C /* AudioToolbox.framework */,
+				63C043D520620BD40080FB2C /* xPlayer.framework */,
+				63C0440A206230370080FB2C /* libiconv.tbd */,
+				63C043DC20620EBB0080FB2C /* libbz2.tbd */,
+				63C043DA20620EA80080FB2C /* libz.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		63EFA941203FF14C005F5015 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				63EFA946203FF7B2005F5015 /* sintel.mp4 */,
+				63EFA944203FF184005F5015 /* xiaoqingge.mp3 */,
+				63EFA942203FF14C005F5015 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63C907A9203E8F220067A39D /* xPlayerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63C907C6203E8F220067A39D /* Build configuration list for PBXNativeTarget "xPlayerDemo" */;
+			buildPhases = (
+				63C907A6203E8F220067A39D /* Sources */,
+				63C907A7203E8F220067A39D /* Frameworks */,
+				63C907A8203E8F220067A39D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = xPlayerDemo;
+			productName = xPlayerDemo;
+			productReference = 63C907AA203E8F220067A39D /* xPlayerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63C907A2203E8F220067A39D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = JSK;
+				TargetAttributes = {
+					63C907A9203E8F220067A39D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 63C907A5203E8F220067A39D /* Build configuration list for PBXProject "xPlayerDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63C907A1203E8F220067A39D;
+			productRefGroup = 63C907AB203E8F220067A39D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63C907A9203E8F220067A39D /* xPlayerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63C907A8203E8F220067A39D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63EFA947203FF7B2005F5015 /* sintel.mp4 in Resources */,
+				63EFA945203FF184005F5015 /* xiaoqingge.mp3 in Resources */,
+				63EFA943203FF14D005F5015 /* Assets.xcassets in Resources */,
+				63C907C0203E8F220067A39D /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63C907A6203E8F220067A39D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63C907E4203E965F0067A39D /* AppDelegate.m in Sources */,
+				6354C1A1203EA4B8004FEA4D /* main.m in Sources */,
+				63A03AD32060CAFC0039D5C9 /* DemoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		63C907BE203E8F220067A39D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63C907BF203E8F220067A39D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		63C907C4203E8F220067A39D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		63C907C5203E8F220067A39D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63C907C7203E8F220067A39D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E6J3Q59668;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = xPlayerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
+				LINK_WITH_STANDARD_LIBRARIES = YES;
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xspace.xPlayerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		63C907C8203E8F220067A39D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E6J3Q59668;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = xPlayerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
+				LINK_WITH_STANDARD_LIBRARIES = YES;
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xspace.xPlayerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63C907A5203E8F220067A39D /* Build configuration list for PBXProject "xPlayerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63C907C4203E8F220067A39D /* Debug */,
+				63C907C5203E8F220067A39D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63C907C6203E8F220067A39D /* Build configuration list for PBXNativeTarget "xPlayerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63C907C7203E8F220067A39D /* Debug */,
+				63C907C8203E8F220067A39D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63C907A2203E8F220067A39D /* Project object */;
+}
